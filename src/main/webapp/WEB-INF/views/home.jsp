@@ -1,5 +1,5 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
-<%@ page session="false" %>
+<%@ page session="true" %>
 
 <%@taglib prefix="spring" uri="http://www.springframework.org/tags"%>
 <!-- here, in the servlet-context.xml you have specified the loaction of static resources, so here we use the mapping to -->
@@ -78,7 +78,8 @@
 	<!-- include the Navigation file -->
 	<%@include file="./sharedPages/navibar.jsp"%>
 
-<%-- 	<!-- here comes the home page main content -->
+	<!-- here comes the home page main content -->
+
 	<!-- assure that the homeContent will be displayed only if user clicks home button -->
 	<c:if test="${userClickHome == true}">
 		<%@include file="homeContent.jsp"%>
@@ -89,33 +90,32 @@
 		<%@include file="about.jsp"%>
 	</c:if>
 	
-	<!-- assure that the homeContent will be displayed only if user clicks contact button -->
+
 	<c:if test="${userClickContact == true}">
 		<%@include file="contact.jsp"%>
 	</c:if>
 	
-	<!-- assure that the homeContent will be displayed only if user clicks contact button -->
-	<c:if test="${userClickAllProducts == true or userClickCategoryProducts == true}">
-		<%@include file="listProducts.jsp"%>
-	</c:if>
-	
-	<!-- <!-- assure that the homeContent will be displayed only if user clicks single product button -->
-	<c:if test="${userClickShowProduct == true}">
-		<%@include file="singleProduct.jsp"%>
-	</c:if>
-	
-	<!-- <!-- assure that the cart will be displayed only if user clicks single product button -->
-	<c:if test="${userClickShowCart == true}">
-		<%@include file="cart.jsp"%>
-	</c:if>
-	
-	<!-- when user click manage products -->
-	<c:if test="${userClickManageProducts == true}">
-		<%@include file="manageProducts.jsp"%>
-	</c:if>
 
-	<!-- Footer comes here -->
-	<%@include file="./sharedPages/footer.jsp"%> --%>
+	<c:if test="${userClickCourses == true }">
+		<%@include file="courses.jsp"%>
+	</c:if>
+	
+	
+	<c:if test="${userClickElements == true}">
+		<%@include file="elements.jsp"%>
+	</c:if>
+	
+
+	<c:if test="${userClickNews == true}">
+		<%@include file="news.jsp"%>
+	</c:if>
+	
+	
+	<!-- menu comes here -->
+	<%@include file="./sharedPages/menu.jsp"%>
+	
+	<!-- footer comes here -->
+	<%@include file="./sharedPages/footer.jsp"%>
 
 	<!-- Bootstrap core JavaScript -->
 	<script src="${js}/jquery-3.2.1.min.js"></script>
