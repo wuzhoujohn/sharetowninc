@@ -12,7 +12,7 @@
 						<!-- News Post -->
 						<div class="news_post">
 							<div class="news_post_image">
-								<img src="images/news_1.jpg" alt="https://unsplash.com/@dsmacinnes">
+								<img src="${pictures}/news_1.jpg" alt="https://unsplash.com/@dsmacinnes">
 							</div>
 							<div class="news_post_top d-flex flex-column flex-sm-row">
 								<div class="news_post_date_container">
@@ -43,7 +43,7 @@
 						<!-- News Post -->
 						<div class="news_post">
 							<div class="news_post_image">
-								<img src="images/news_2.jpg" alt="https://unsplash.com/@dsmacinnes">
+								<img src="${pictures}/news_2.jpg" alt="https://unsplash.com/@dsmacinnes">
 							</div>
 							<div class="news_post_top d-flex flex-column flex-sm-row">
 								<div class="news_post_date_container">
@@ -74,7 +74,7 @@
 						<!-- News Post -->
 						<div class="news_post">
 							<div class="news_post_image">
-								<img src="images/news_3.jpg" alt="https://unsplash.com/@dsmacinnes">
+								<img src="${pictures}/news_3.jpg" alt="https://unsplash.com/@dsmacinnes">
 							</div>
 							<div class="news_post_top d-flex flex-column flex-sm-row">
 								<div class="news_post_date_container">
@@ -146,7 +146,7 @@
 								<!-- Latest Post -->
 								<div class="latest_post">
 									<div class="latest_post_image">
-										<img src="images/latest_1.jpg" alt="https://unsplash.com/@dsmacinnes">
+										<img src="${pictures}/latest_1.jpg" alt="https://unsplash.com/@dsmacinnes">
 									</div>
 									<div class="latest_post_title"><a href="news_post.html">Why do you need a qualification?</a></div>
 									<div class="latest_post_meta">
@@ -159,7 +159,7 @@
 								<!-- Latest Post -->
 								<div class="latest_post">
 									<div class="latest_post_image">
-										<img src="images/latest_2.jpg" alt="https://unsplash.com/@erothermel">
+										<img src="${pictures}/latest_2.jpg" alt="https://unsplash.com/@erothermel">
 									</div>
 									<div class="latest_post_title"><a href="news_post.html">Why do you need a qualification?</a></div>
 									<div class="latest_post_meta">
@@ -172,7 +172,7 @@
 								<!-- Latest Post -->
 								<div class="latest_post">
 									<div class="latest_post_image">
-										<img src="images/latest_3.jpg" alt="https://unsplash.com/@element5digital">
+										<img src="${pictures}/latest_3.jpg" alt="https://unsplash.com/@element5digital">
 									</div>
 									<div class="latest_post_title"><a href="news_post.html">Why do you need a qualification?</a></div>
 									<div class="latest_post_meta">

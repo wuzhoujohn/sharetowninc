@@ -44,7 +44,7 @@ $(document).ready(function()
 
 	initHamburger();
 	initParallax();
-	initGoogleMap();
+	//initGoogleMap();
 
 	/* 
 
@@ -189,7 +189,7 @@ $(document).ready(function()
 
 	*/
 
-	function initGoogleMap()
+	/*function initGoogleMap()
 	{
 		var myLatlng = new google.maps.LatLng(25.498345,-80.352984);
     	var mapOptions = 
@@ -225,5 +225,5 @@ $(document).ready(function()
 				map.setCenter(myLatlng);
 			}, 1400);
 		});
-	}
+	}*/
 });

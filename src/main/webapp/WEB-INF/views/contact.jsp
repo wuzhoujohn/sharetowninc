@@ -30,19 +30,19 @@
 							<ul>
 								<li class="contact_info_item">
 									<div class="contact_info_icon">
-										<img src="images/placeholder.svg" alt="https://www.flaticon.com/authors/lucy-g">
+										<img src="${pictures}/placeholder.svg" alt="https://www.flaticon.com/authors/lucy-g">
 									</div>
 									Blvd Libertad, 34 m05200 Arévalo
 								</li>
 								<li class="contact_info_item">
 									<div class="contact_info_icon">
-										<img src="images/smartphone.svg" alt="https://www.flaticon.com/authors/lucy-g">
+										<img src="${pictures}/smartphone.svg" alt="https://www.flaticon.com/authors/lucy-g">
 									</div>
 									0034 37483 2445 322
 								</li>
 								<li class="contact_info_item">
 									<div class="contact_info_icon">
-										<img src="images/envelope.svg" alt="https://www.flaticon.com/authors/lucy-g">
+										<img src="${pictures}/envelope.svg" alt="https://www.flaticon.com/authors/lucy-g">
 									</div>hello@company.com
 								</li>
 							</ul>

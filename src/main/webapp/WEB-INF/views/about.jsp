@@ -7,7 +7,7 @@
 					<div class="card">
 						<div class="card_img">
 							<div class="card_plus trans_200 text-center"><a href="#">+</a></div>
-							<img class="card-img-top trans_200" src="images/teacher_1.jpg" alt="https://unsplash.com/@michaeldam">
+							<img class="card-img-top trans_200" src="${pictures}/teacher_1.jpg" alt="https://unsplash.com/@michaeldam">
 						</div>
 						<div class="card-body text-center">
 							<div class="card-title"><a href="#">Maria Smith</a></div>
@@ -30,7 +30,7 @@
 					<div class="card">
 						<div class="card_img">
 							<div class="card_plus trans_200 text-center"><a href="#">+</a></div>
-							<img class="card-img-top trans_200" src="images/teacher_2.jpg" alt="https://unsplash.com/@jcpeacock">
+							<img class="card-img-top trans_200" src="${pictures}/teacher_2.jpg" alt="https://unsplash.com/@jcpeacock">
 						</div>
 						<div class="card-body text-center">
 							<div class="card-title"><a href="#">Christian Blue</a></div>
@@ -53,7 +53,7 @@
 					<div class="card">
 						<div class="card_img">
 							<div class="card_plus trans_200 text-center"><a href="#">+</a></div>
-							<img class="card-img-top trans_200" src="images/teacher_3.jpg" alt="https://unsplash.com/photos/n8jeOSxCRfQ">
+							<img class="card-img-top trans_200" src="${pictures}/teacher_3.jpg" alt="https://unsplash.com/photos/n8jeOSxCRfQ">
 						</div>
 						<div class="card-body text-center">
 							<div class="card-title"><a href="#">James Brown</a></div>
@@ -76,7 +76,7 @@
 					<div class="card">
 						<div class="card_img">
 							<div class="card_plus trans_200 text-center"><a href="#">+</a></div>
-							<img class="card-img-top trans_200" src="images/teacher_4.jpg" alt="https://unsplash.com/@seteales">
+							<img class="card-img-top trans_200" src="${pictures}/teacher_4.jpg" alt="https://unsplash.com/@seteales">
 						</div>
 						<div class="card-body text-center">
 							<div class="card-title"><a href="#">Julie Denver</a></div>
@@ -99,7 +99,7 @@
 					<div class="card">
 						<div class="card_img">
 							<div class="card_plus trans_200 text-center"><a href="#">+</a></div>
-							<img class="card-img-top trans_200" src="images/teacher_5.jpg" alt="https://unsplash.com/@jaredsluyter">
+							<img class="card-img-top trans_200" src="${pictures}/teacher_5.jpg" alt="https://unsplash.com/@jaredsluyter">
 						</div>
 						<div class="card-body text-center">
 							<div class="card-title"><a href="#">Julie Denver</a></div>
@@ -122,7 +122,7 @@
 					<div class="card">
 						<div class="card_img">
 							<div class="card_plus trans_200 text-center"><a href="#">+</a></div>
-							<img class="card-img-top trans_200" src="images/teacher_6.jpg" alt="https://unsplash.com/@mehdizadeh">
+							<img class="card-img-top trans_200" src="${pictures}/teacher_6.jpg" alt="https://unsplash.com/@mehdizadeh">
 						</div>
 						<div class="card-body text-center">
 							<div class="card-title"><a href="#">Julie Denver</a></div>

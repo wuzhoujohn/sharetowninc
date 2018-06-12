@@ -43,9 +43,9 @@
 
 <link href="${css}/courses_styles.css" rel="stylesheet">
 
-<link href="${css}/element_responsive.css" rel="stylesheet">
+<link href="${css}/elements_responsive.css" rel="stylesheet">
 
-<link href="${css}/element_styles.css" rel="stylesheet">
+<link href="${css}/elements_styles.css" rel="stylesheet">
 
 <link href="${css}/main_styles.css" rel="stylesheet">
 
@@ -110,10 +110,6 @@
 		<%@include file="news.jsp"%>
 	</c:if>
 	
-	
-	<!-- menu comes here -->
-	<%@include file="./sharedPages/menu.jsp"%>
-	
 	<!-- footer comes here -->
 	<%@include file="./sharedPages/footer.jsp"%>
 
@@ -128,9 +124,9 @@
 	
 	<script src="${js}/dataTables.bootstrap.min.js"></script>
 	
-	<script src="${js}/jquery.validate.js"></script>
+	<%-- <script src="${js}/jquery.validate.js"></script> --%>
 	
-	<script src="${js}/bootbox.min.js"></script>
+	<%-- <script src="${js}/bootbox.min.js"></script> --%>
 	
 	<script src="${js}/app.js"></script>
 	
@@ -142,7 +138,7 @@
 	
 	<script src="${js}/elements_custom.js"></script>
 	
-	<script src="${js}/jquery.js"></script>
+	<%-- <script src="${js}/jquery.js"></script> --%>
 	
 	<script src="${js}/news_custom.js"></script>
 	
