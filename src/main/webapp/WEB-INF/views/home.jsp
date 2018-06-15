@@ -63,13 +63,13 @@
 
 <link href="${css}/teachers_styles.css" rel="stylesheet">
 
-<link href="${plugins}/fontawesome-free-5.0.1/css/fontawesome-all.css" rel="stylesheet" type="text/css">
+<link href="${css}/fontawesome-all.css" rel="stylesheet">
 
-<link rel="stylesheet" type="text/css" href="${plugins}/OwlCarousel2-2.2.1/owl.carousel.css">
+<link href="${css}/animate.css" rel="stylesheet">
 
-<link rel="stylesheet" type="text/css" href="${plugins}/OwlCarousel2-2.2.1/owl.theme.default.css">
+<link href="${css}/owl.carousel.css" rel="stylesheet">
 
-<link rel="stylesheet" type="text/css" href="${plugins}/OwlCarousel2-2.2.1/animate.css">
+<link href="${css}/owl.theme.default.css" rel="stylesheet">
 
 </head>
 
@@ -120,7 +120,7 @@
 	
 	<script src="${js}/bootstrap.min.js"></script>
 	
-	<script src="${js}/jquery.dataTables.min.js"></script>
+	<%-- <script src="${js}/jquery.dataTables.min.js"></script> --%>
 	
 	<script src="${js}/dataTables.bootstrap.min.js"></script>
 	
@@ -150,17 +150,22 @@
 	
 	<script src="${plugins}/greensock/TimelineMax.min.js"></script>
 	
-	<script src="${plugins}/scrollmagic/ScrollMagic.min.js"></script>
-	
 	<script src="${plugins}/greensock/animation.gsap.min.js"></script>
 	
 	<script src="${plugins}/greensock/ScrollToPlugin.min.js"></script>
+	
+	<script src="${plugins}/scrollmagic/ScrollMagic.min.js"></script>
 	
 	<script src="${plugins}/OwlCarousel2-2.2.1/owl.carousel.js"></script>
 	
 	<script src="${plugins}/scrollTo/jquery.scrollTo.min.js"></script>
 	
 	<script src="${plugins}/easing/easing.js"></script>
+	
+	<script src="${plugins}/parallax.js-2.0.0/jquery.parallax.min.js"></script>
+	
+	<script src="${plugins}/progressbar/progressbar.min.js"></script>
+	
 
 </body>
 
